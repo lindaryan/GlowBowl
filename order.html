@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Glow Bowl | The Original Toilet Nightlight</title>
+		<meta name="description" content="Project1 Glow Bowl Toilet Nightlight Website">
+		<meta name="author" content="Linda Ryan">
+		<!-- links to external stylesheet and fonts -->
+		<link href="css/style.css" rel="stylesheet" media="all">
+		<link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+		<!--added viewport for viewing on smaller devices-->
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+	</head>
+	<body>
+		<div id="Container">
+			<header>
+				<!-- global nav consistent on every page -->
+				<a href="index.html"><img src="img/logo.png" alt="Glow Bowl Logo"/></a>
+				<div id="Navbar">
+					<nav role="navigation">
+						<ul>
+							<li><a href="index.html" title="Back to the Home page">Home</a></li>
+							<li><a href="about.html" title="About the Glow Bowl Toilet Nightlight">About</a></li>
+							<li><a href="order.html" title="Order Your Glow Bowl Toilet Nightlight">Order</a></li>
+							<li><a href="faq.html" title="Frequently Asked Questions">FAQ</a></li>
+							<li><a href="contact.html" title="Glow Bowl Contact and Customer Support">Contact Us</a></li>
+						</ul>
+					</nav>
+				</div>
+				</header>
+				<main>
+					<h1>Order Now!</h1>
+					<form>
+						<fieldset>
+							<legend>Delivery Information</legend>
+							<div>
+								<label for="firstName">First Name</label>
+								<input id="firstName" type="text" name="firstName" size="25" maxlength="20" required placeholder="First Name">
+							</div>
+							<div>
+								<label for="lastName">Last Name</label>
+								<input id="lastName" type="text" name="lastName" size="25" maxlength="20" required placeholder="Last Name">
+							</div>
+							<div>
+								<label for="address">Address</label>
+								<input id="address" type="text" name="address" required>
+							</div>
+							<div>
+								<label for="address2">Address</label>
+								<input id="address2" type="text" name="address2">
+							</div>
+							<div>
+								<label for="province">Province</label>
+								<select id="province" name="province">
+									<option value="choose">choose...</option>
+									<option value="AB">Alberta</option>
+									<option value="BC">British Columbia</option>
+									<option value="ON">Ontario</option>
+									<option value="MB">Manitoba</option>
+									<option value="NB">New Brunswick</option>
+									<option value="NL">Newfoundland</option>
+									<option value="NT">Northwest Territories</option>
+									<option value="NS">Nova Scotia</option>
+									<option value="NV">Nunavut</option>
+									<option value="PE">Prince Edward Island</option>
+									<option value="PQ">Quebec</option>
+									<option value="SK">Saskatchewan</option>
+									<option value="YK">Yukon</option>
+								</select>
+							</div>
+							<div>
+								<label for="phone">Phone</label>
+								<input id="phone" type="tel" name="phone">
+							</div>
+							<div>
+								<label for="email">Email</label>
+								<input id="email" type="email" name="email">
+							</div>
+						</fieldset>
+						<fieldset>
+							<legend>Payment Information</legend>
+							<input type="radio" name="cctype" id="visa" value="visa">
+							<label for="visa"><img src="img/visa_logo.gif" alt="Visa"> Visa</label>
+
+							<input type="radio" name="cctype" id="mc" value="mc">
+							<label for="mc"><img src="img/mc_logo.gif" alt="MasterCard"> MasterCard</label>
+
+							<input type="radio" name="cctype" id="amex" value="amex">
+							<label for="amex"><img src="img/amex_logo.gif" alt="American Express"> AMEX</label>
+
+							<div>
+								<label for="creditCard">Credit Card Number</label>
+								<input id="creditCard" type="text" name="creditCard" value="">
+							</div>
+							<div>
+								<label for="ccExpiryYear">Expiration Year</label>
+								<!-- STEP 7: Construct a select element and options for Expiration Year -->
+								<select id="ccExpiryYear"
+								name="ccExpiryYear">
+									<option value="2018">2018</option>
+									<option value="2019">2019</option>
+									<option value="2020">2020</option>
+									<option value="2021">2021</option>
+									<option value="2022">2022</option>
+								</select>
+							</div>
+							<div>
+								<label for="ccExpiryMonth">Expiration Month</label>
+								<select name="ccExpiryMonth" id="ccExpiryMonth">
+									<option value="choose">choose…</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+										<option value="6">6</option>
+										<option value="7">7</option>
+										<option value="8">8</option>
+										<option value="9">9</option>
+										<option value="10">10</option>
+										<option value="11">11</option>
+										<option value="12">12</option>
+								</select>
+							</div>
+						</fieldset>
+						<input type="submit" name="order" id="Order" value="order" formaction="thankYou.html">
+					</form>
+				</main>
+						<!-- social media links -->
+						<a href="https://www.facebook.com"><img src="https://img.icons8.com/color/50/000000/facebook.png" alt="Facebook"></a>
+						<a href="https://www.twitter.com"><img src="https://img.icons8.com/color/50/000000/twitter-squared.png" alt="Twitter"></a>
+						<a href="https://www.instagram.com"><img src="https://img.icons8.com/color/50/000000/instagram-new.png" alt="Instagram"></a>
+			<footer role="contentinfo">
+					<p><a href="contact.html" title="Contact Us">Contact Us</a>
+					<a href="shipping.html" title="Glow Bowl Shipping Policy">Shipping Policy</a>
+					<a href="return.html" title="Glow Bowl Return Policy">Return Policy</a>
+					<a href="privacy.html" title="Glow Bowl Privacy Policy">Privacy Policy</a>
+					<a href="terms.html" title="Glow Bowl Terms and Conditions">Terms & Conditions</a></p>
+					<small>&copy; 2018 Glow Bowl</small>
+					<p><a href="https://github.com/lindaryan" class="by">Linda Ryan (020080205) | COMP 1002 - HTML, CSS and JS Fundamentals</a><a href="#" class="top">Back to Top</a>
+			</footer>
+				</div>
+			<!-- link to external js -->
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
